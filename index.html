@@ -26,7 +26,76 @@
     <div class="sparkles"></div>
   </section>
 
+  <svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 700 100"
+     id="svg2"
+     version="1.1"
+     inkscape:version="0.91 r13725"
+     sodipodi:docname="drawing.svg"
+     style="shape-rendering:optimizeQuality">
 
+    <metadata
+       id="metadata7">
+      <rdf:RDF>
+        <cc:Work
+           rdf:about="">
+          <dc:format>image/svg+xml</dc:format>
+          <dc:type
+             rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+          <dc:title></dc:title>
+        </cc:Work>
+      </rdf:RDF>
+    </metadata>
+    <image xlink:href="Header_Sparkle.png" x="0" y="0" height="100px" width="100%"/>
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Layer 2"
+       style="display:inline"
+       transform="scale(0.02)"
+
+       >
+      <path
+        animation="hideshow 1s ease infinite"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 371.29492,196.87187 359.59961,466.79375 235.59571,352.16093 349.76953,478.19023 56.53516,481.53008 351.24805,502.47343 239.11133,632.87773 359.85352,515.28789 373.85156,785.05351 385.58008,514.35039 509.85547,629.2332 396.15625,503.72539 688.60938,500.39531 393.75781,479.44219 506.33985,348.5164 385.28125,466.41484 371.29492,196.87187 Z"
+         id="sparkle"
+       />
+    </g>
+
+  <script>
+    <![CDATA[
+    document.addEventListener("DOMContentLoaded", function() {
+      var daddy = document.getElementById('layer2');
+      var sparkle = document.getElementById('sparkle');
+
+      var sparkleDelayRange = 20;
+
+      for (var i = 0; i < 0; i++){
+        var newSparkle = sparkle.cloneNode(true);
+        newSparkle.id="sparkle" + i;
+
+        var move = "translate("+ 900*i + ", "+ 300*i+")";
+        newSparkle.setAttribute("transform", move);
+
+        newSparkle.setAttribute("transform-origin", "172.498px 243.337px");
+
+
+
+        daddy.appendChild(newSparkle);
+      }
+    });
+    ]]>
+  </script>
+  </svg>
 
 </body>
 </html>

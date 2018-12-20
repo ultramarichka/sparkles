@@ -18,7 +18,6 @@
         $('.sparkles').append('<div class="sparkle"></div>');
       }
 
-
       $('.sparkles').find('.sparkle').each(function(){
 
         // Cache the this selector

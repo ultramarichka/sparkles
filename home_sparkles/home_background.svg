@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="0 0 3200 1067"
+   id="svg2"
+   version="1.1"
+   style="shape-rendering:optimizeQuality"
+   transformOrigin="center center">
+
+
+  <defs>
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0" />
+    <stop offset="35%" style="stop-color:rgb(255,255,255);stop-opacity:0" />
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0" />
+    <stop offset="50%" style="stop-color:#559cce;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#559cce;stop-opacity:1" />
+  </linearGradient>
+  </defs>
+
+  <image xlink:href="Header.jpg" x="0" y="0"  height="100%" width="50%"/>
+  <rect x="0" y="0" height="100%" width="100%" fill="url(#grad1)"></rect>
+
+
+  <g
+     transform="scale(0.08)"
+     >
+     <g
+       id = "spg">
+       <path
+          style="fill:#0000ff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          d="M -1.27508,-276.66866 -12.97039,-6.74678 -136.97429,-121.3796 -22.80047,4.6497 -316.03484,7.98955 -21.32195,28.9329 -133.45867,159.3372 -12.71648,41.74736 1.28156,311.51298 13.01008,40.80986 137.28547,155.69267 23.58625,30.18486 316.03938,26.85478 21.18781,5.90166 133.76985,-125.02413 12.71125,-7.12569 -1.27508,-276.66866 Z"
+          id="sparkle">
+          <animateTransform id="scaleUp1"
+                   attributeName="transform"
+                   type="scale"
+                   values="0; 1; 1; 0"
+                   keyTimes="0; 0.5; 0.8; 1"
+                   dur="3s"
+                   begin="0s"
+                   repeatCount="indefinite"
+                   additive="sum" accumulate="sum"
+                   fill="freeze"/>
+           <animateTransform
+                    attributeName="transform"
+                    type="rotate"
+                    values="0; 15; 15; 0"
+                    keyTimes="0; 0.5; 0.8; 1"
+                    dur="3s"
+                    begin="scaleUp1.begin"
+                    repeatCount="indefinite"
+                    additive="sum" accumulate="sum"
+                    />
+
+        </path>
+      </g>
+
+      <g
+        id = "spgRotleft">
+        <path
+           style="fill:#0000ff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -1.27508,-276.66866 -12.97039,-6.74678 -136.97429,-121.3796 -22.80047,4.6497 -316.03484,7.98955 -21.32195,28.9329 -133.45867,159.3372 -12.71648,41.74736 1.28156,311.51298 13.01008,40.80986 137.28547,155.69267 23.58625,30.18486 316.03938,26.85478 21.18781,5.90166 133.76985,-125.02413 12.71125,-7.12569 -1.27508,-276.66866 Z"
+           id="sparkle2">
+           <animateTransform id="scaleUp"
+                    attributeName="transform"
+                    type="scale"
+                    values="0; 0.6; 0.6; 0"
+                    keyTimes="0; 0.5; 0.8; 1"
+                    dur="3s"
+                    begin="1s"
+                    repeatCount="indefinite"
+                    additive="sum" accumulate="sum"
+                    fill="freeze"/>
+            <animateTransform
+                     attributeName="transform"
+                     type="rotate"
+                     values="0; -15; -15; 0"
+                     keyTimes="0; 0.5; 0.8; 1"
+                     dur="1s"
+                     begin="scaleUp.begin"
+                     repeatCount="indefinite"
+                     additive="sum" accumulate="sum"
+                     />
+         </path>
+       </g>
+
+       <g
+         id = "spgDelay3">
+         <path
+            style="fill:#0000ff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            d="M -1.27508,-276.66866 -12.97039,-6.74678 -136.97429,-121.3796 -22.80047,4.6497 -316.03484,7.98955 -21.32195,28.9329 -133.45867,159.3372 -12.71648,41.74736 1.28156,311.51298 13.01008,40.80986 137.28547,155.69267 23.58625,30.18486 316.03938,26.85478 21.18781,5.90166 133.76985,-125.02413 12.71125,-7.12569 -1.27508,-276.66866 Z"
+            id="sparkle3">
+            <animateTransform id="scaleUp"
+                     attributeName="transform"
+                     type="scale"
+                     values="0; 0.8; 0.8; 0"
+                     keyTimes="0; 0.5; 0.8; 1"
+                     dur="3s"
+                     begin="2s"
+                     repeatCount="indefinite"
+                     additive="sum" accumulate="sum"
+                     fill="freeze"/>
+             <animateTransform
+                      attributeName="transform"
+                      type="rotate"
+                      values="0; -10; -10; 0"
+                      keyTimes="0; 0.5; 0.8; 1"
+                      dur="1s"
+                      begin="scaleUp.begin"
+                      repeatCount="indefinite"
+                      additive="sum" accumulate="sum"
+                      />
+          </path>
+        </g>
+
+
+        <use xlink:href="#spg" transform="translate(2000 2000)" />
+        <use xlink:href="#spgDelay3" transform="translate(1000 4000)" />
+        <use xlink:href="#spgRotleft" transform="translate(3000 4500)" />
+        <use xlink:href="#spg" transform="translate(4000 4000)" />
+        <use xlink:href="#spgRotleft" transform="translate(6000 1000)" />
+
+        <use xlink:href="#spgDelay3" transform="translate(6500 4800)" />
+
+
+        <use xlink:href="#spg" transform="translate(9000 3000)" />
+        <use xlink:href="#spgRotleft" transform="translate(14000 200)" />
+
+        <use xlink:href="#spgDelay3" transform="translate(16000 3500)" />
+        <use xlink:href="#spg" transform="translate(22000 4500)" />
+        <use xlink:href="#spgRotleft" transform="translate(26000 1000)" />
+        <use xlink:href="#spgDelay3" transform="translate(27000 2500)" />
+        <use xlink:href="#spgRotleft" transform="translate(29000 4000)" />
+        <use xlink:href="#spg" transform="translate(30000 300)" />
+        <use xlink:href="#spgDelay3" transform="translate(31000 45000)" />
+        <use xlink:href="#spgRotleft" transform="translate(33000 2000)" />
+
+        <use xlink:href="#spg" transform="translate(37000 4500)" />
+        <use xlink:href="#spgDelay3" transform="translate(38000 2000)" />
+        <use xlink:href="#spgRotleft" transform="translate(40000 1000)" />
+
+
+     </g>
+
+</svg>
