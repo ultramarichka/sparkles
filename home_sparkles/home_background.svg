@@ -11,7 +11,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
 xmlns:xlink="http://www.w3.org/1999/xlink"
    viewBox="0 0 3200 1067"
-   id="svg2"
+   id="home_background_svg"
    version="1.1"
    style="shape-rendering:optimizeQuality"
    transformOrigin="center center">
@@ -37,7 +37,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
      <g
        id = "spg">
        <path
-          style="fill:#0000ff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
           d="M -1.27508,-276.66866 -12.97039,-6.74678 -136.97429,-121.3796 -22.80047,4.6497 -316.03484,7.98955 -21.32195,28.9329 -133.45867,159.3372 -12.71648,41.74736 1.28156,311.51298 13.01008,40.80986 137.28547,155.69267 23.58625,30.18486 316.03938,26.85478 21.18781,5.90166 133.76985,-125.02413 12.71125,-7.12569 -1.27508,-276.66866 Z"
           id="sparkle">
           <animateTransform id="scaleUp1"
@@ -56,7 +56,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
                     values="0; 15; 15; 0"
                     keyTimes="0; 0.5; 0.8; 1"
                     dur="3s"
-                    begin="scaleUp1.begin"
+                    begin="0s"
                     repeatCount="indefinite"
                     additive="sum" accumulate="sum"
                     />
@@ -65,28 +65,57 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
       </g>
 
       <g
-        id = "spgRotleft">
+        id = "spgL2">
         <path
-           style="fill:#0000ff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="M -1.27508,-276.66866 -12.97039,-6.74678 -136.97429,-121.3796 -22.80047,4.6497 -316.03484,7.98955 -21.32195,28.9329 -133.45867,159.3372 -12.71648,41.74736 1.28156,311.51298 13.01008,40.80986 137.28547,155.69267 23.58625,30.18486 316.03938,26.85478 21.18781,5.90166 133.76985,-125.02413 12.71125,-7.12569 -1.27508,-276.66866 Z"
-           id="sparkle2">
+           id="sparkle3">
            <animateTransform id="scaleUp"
                     attributeName="transform"
                     type="scale"
-                    values="0; 0.6; 0.6; 0"
+                    values="0; 0.5; 0.5; 0"
                     keyTimes="0; 0.5; 0.8; 1"
                     dur="3s"
-                    begin="1s"
+                    begin="0.6s"
                     repeatCount="indefinite"
                     additive="sum" accumulate="sum"
                     fill="freeze"/>
             <animateTransform
                      attributeName="transform"
                      type="rotate"
-                     values="0; -15; -15; 0"
+                     values="0; -10; -10; 0"
                      keyTimes="0; 0.5; 0.8; 1"
-                     dur="1s"
-                     begin="scaleUp.begin"
+                     dur="3s"
+                     begin="0.6s"
+                     repeatCount="indefinite"
+                     additive="sum" accumulate="sum"
+                     />
+         </path>
+       </g>
+
+      <g
+        id = "spgR3">
+        <path
+           style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -1.27508,-276.66866 -12.97039,-6.74678 -136.97429,-121.3796 -22.80047,4.6497 -316.03484,7.98955 -21.32195,28.9329 -133.45867,159.3372 -12.71648,41.74736 1.28156,311.51298 13.01008,40.80986 137.28547,155.69267 23.58625,30.18486 316.03938,26.85478 21.18781,5.90166 133.76985,-125.02413 12.71125,-7.12569 -1.27508,-276.66866 Z"
+           id="sparkle2">
+           <animateTransform id="scaleUp3"
+                    attributeName="transform"
+                    type="scale"
+                    values="0; 0.6; 0.6; 0"
+                    keyTimes="0; 0.5; 0.8; 1"
+                    dur="3s"
+                    begin="0.9s"
+                    repeatCount="indefinite"
+                    additive="sum" accumulate="sum"
+                    fill="freeze"/>
+            <animateTransform
+                     attributeName="transform"
+                     type="rotate"
+                     values="0; 15; 15; 0"
+                     keyTimes="0; 0.5; 0.8; 1"
+                     dur="3s"
+                     begin="0.9s"
                      repeatCount="indefinite"
                      additive="sum" accumulate="sum"
                      />
@@ -94,18 +123,18 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
        </g>
 
        <g
-         id = "spgDelay3">
+         id = "spgL4">
          <path
-            style="fill:#0000ff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.62655753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
             d="M -1.27508,-276.66866 -12.97039,-6.74678 -136.97429,-121.3796 -22.80047,4.6497 -316.03484,7.98955 -21.32195,28.9329 -133.45867,159.3372 -12.71648,41.74736 1.28156,311.51298 13.01008,40.80986 137.28547,155.69267 23.58625,30.18486 316.03938,26.85478 21.18781,5.90166 133.76985,-125.02413 12.71125,-7.12569 -1.27508,-276.66866 Z"
             id="sparkle3">
-            <animateTransform id="scaleUp"
+            <animateTransform id="scaleUp4"
                      attributeName="transform"
                      type="scale"
                      values="0; 0.8; 0.8; 0"
                      keyTimes="0; 0.5; 0.8; 1"
                      dur="3s"
-                     begin="2s"
+                     begin="1.5s"
                      repeatCount="indefinite"
                      additive="sum" accumulate="sum"
                      fill="freeze"/>
@@ -114,8 +143,8 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
                       type="rotate"
                       values="0; -10; -10; 0"
                       keyTimes="0; 0.5; 0.8; 1"
-                      dur="1s"
-                      begin="scaleUp.begin"
+                      dur="3s"
+                      begin="1.5s"
                       repeatCount="indefinite"
                       additive="sum" accumulate="sum"
                       />
@@ -123,30 +152,119 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
         </g>
 
 
+
+
         <use xlink:href="#spg" transform="translate(2000 2000)" />
-        <use xlink:href="#spgDelay3" transform="translate(1000 4000)" />
-        <use xlink:href="#spgRotleft" transform="translate(3000 4500)" />
-        <use xlink:href="#spg" transform="translate(4000 4000)" />
-        <use xlink:href="#spgRotleft" transform="translate(6000 1000)" />
+        <use xlink:href="#spgL4" transform="translate(1000 4000)" />
+        <use xlink:href="#spgR3" transform="translate(3000 4500)" />
+        <use xlink:href="#spgR3" transform="translate(3500 700)" />
+        <use xlink:href="#spgL2" transform="translate(4000 4000)" />
 
-        <use xlink:href="#spgDelay3" transform="translate(6500 4800)" />
+        <use xlink:href="#spgL4" transform="translate(6000 500)" />
+
+        <use xlink:href="#spg" transform="translate(5000 3000)" />
+        <use xlink:href="#spgR3" transform="translate(5000 6500)" />
+        <use xlink:href="#spgL4" transform="translate(6500 4800)" />
+
+        <use xlink:href="#spgL2" transform="translate(7000 1000)" />
+        <use xlink:href="#spgR3" transform="translate(9000 3000)" />
+        <use xlink:href="#spg" transform="translate(10000 500)" />
+        <use xlink:href="#spgR3" transform="translate(11000 2000)" />
 
 
-        <use xlink:href="#spg" transform="translate(9000 3000)" />
-        <use xlink:href="#spgRotleft" transform="translate(14000 200)" />
+        <use xlink:href="#spgL2" transform="translate(8000 6000)" />
+        <use xlink:href="#spgL4" transform="translate(9500 6500)" />
+        <use xlink:href="#spgR3" transform="translate(10300 6000)" />
+        <use xlink:href="#spg" transform="translate(11000 5500)" />
 
-        <use xlink:href="#spgDelay3" transform="translate(16000 3500)" />
+        <use xlink:href="#spgL4" transform="translate(11500 5300)" />
+
+        <use xlink:href="#spgL2" transform="translate(13000 4500)" />
+        <use xlink:href="#spgR3" transform="translate(12200 6800)" />
+
+              <use xlink:href="#spgL4" transform="translate(12000 3500)" />
+        <use xlink:href="#spg" transform="translate(12500 2000)" />
+        <use xlink:href="#spgR3" transform="translate(13500 3000)" />
+        <use xlink:href="#spgL4" transform="translate(14000 200)" />
+
+              <use xlink:href="#spgR3" transform="translate(15000 2500)" />
+        <use xlink:href="#spgL2" transform="translate(16500 500)" />
+        <use xlink:href="#spgL4" transform="translate(17500 3000)" />
+        <use xlink:href="#spgR3" transform="translate(18000 1000)" />
+
+
+        <use xlink:href="#spgL4" transform="translate(16000 3500)" />
         <use xlink:href="#spg" transform="translate(22000 4500)" />
-        <use xlink:href="#spgRotleft" transform="translate(26000 1000)" />
-        <use xlink:href="#spgDelay3" transform="translate(27000 2500)" />
-        <use xlink:href="#spgRotleft" transform="translate(29000 4000)" />
-        <use xlink:href="#spg" transform="translate(30000 300)" />
-        <use xlink:href="#spgDelay3" transform="translate(31000 45000)" />
-        <use xlink:href="#spgRotleft" transform="translate(33000 2000)" />
+        <use xlink:href="#spgR3" transform="translate(26000 1000)" />
+        <use xlink:href="#spgL4" transform="translate(27000 2500)" />
+        <use xlink:href="#spgR3" transform="translate(29000 4000)" />
+        <use xlink:href="#spgL2" transform="translate(30000 300)" />
+        <use xlink:href="#spgL4" transform="translate(31000 45000)" />
+        <use xlink:href="#spgR3" transform="translate(33000 2000)" />
 
         <use xlink:href="#spg" transform="translate(37000 4500)" />
-        <use xlink:href="#spgDelay3" transform="translate(38000 2000)" />
-        <use xlink:href="#spgRotleft" transform="translate(40000 1000)" />
+        <use xlink:href="#spgL4" transform="translate(38000 2000)" />
+        <use xlink:href="#spgR3" transform="translate(40000 1000)" />
+
+
+        <use xlink:href="#spgR3" transform="translate(500 5500)" />
+        <use xlink:href="#spgL2" transform="translate(2000 7000)" />
+        <use xlink:href="#spgL4" transform="translate(1000 9000)" />
+        <use xlink:href="#spgR3" transform="translate(3000 9500)" />
+        <use xlink:href="#spgL4" transform="translate(3500 7500)" />
+        <use xlink:href="#spg" transform="translate(4000 9000)" />
+        <use xlink:href="#spgR3" transform="translate(6000 6000)" />
+        <use xlink:href="#spgL4" transform="translate(8100 12400)" />
+
+
+        <use xlink:href="#spgL2" transform="translate(9000 8000)" />
+        <use xlink:href="#spgR3" transform="translate(14000 5200)" />
+
+        <use xlink:href="#spgL4" transform="translate(16000 8500)" />
+
+        <use xlink:href="#spg" transform="translate(17000 15500)" />
+        <use xlink:href="#spgL2" transform="translate(19000 5000)" />
+        <use xlink:href="#spgR3" transform="translate(21000 6000)" />
+        <use xlink:href="#spgL4" transform="translate(18000 7000)" />
+        <use xlink:href="#spg" transform="translate(20000 8000)" />
+        <use xlink:href="#spgL2" transform="translate(23000 6500)" />
+
+        <use xlink:href="#spgR3" transform="translate(22000 9500)" />
+        <use xlink:href="#spgL4" transform="translate(23000 3000)" />
+        <use xlink:href="#spg" transform="translate(26000 6000)" />
+        <use xlink:href="#spgL2" transform="translate(27000 7500)" />
+
+        <use xlink:href="#spgR3" transform="translate(29000 9000)" />
+        <use xlink:href="#spgL4" transform="translate(30000 5300)" />
+        <use xlink:href="#spg" transform="translate(31000 9500)" />
+        <use xlink:href="#spgL2" transform="translate(33000 7000)" />
+
+        <use xlink:href="#spgR3" transform="translate(37000 9500)" />
+        <use xlink:href="#spgL4" transform="translate(38000 7000)" />
+        <use xlink:href="#spg" transform="translate(40000 6000)" />
+
+
+        <use xlink:href="#spg" transform="translate(2100 11500)" />
+        <use xlink:href="#spgR3" transform="translate(500 12000)" />
+        <use xlink:href="#spgR3" transform="translate(2000 13000)" />
+        <use xlink:href="#spgL2" transform="translate(30000 5300)" />
+        <use xlink:href="#spgL4" transform="translate(31000 9500)" />
+        <use xlink:href="#spgR3" transform="translate(33000 7000)" />
+
+        <use xlink:href="#spg" transform="translate(37000 9500)" />
+        <use xlink:href="#spgL2" transform="translate(38000 7000)" />
+        <use xlink:href="#spgR3" transform="translate(40000 6000)" />
+
+
+        <use xlink:href="#spgR3" transform="translate(13000 13000)" />
+        <use xlink:href="#spg" transform="translate(15100 11500)" />
+        <use xlink:href="#spgL2" transform="translate(16000 12000)" />
+        <use xlink:href="#spgR3" transform="translate(19000 12700)" />
+
+          <use xlink:href="#spg" transform="translate(15100 11500)" />
+          <use xlink:href="#spgL2" transform="translate(27000 12700)" />
+          <use xlink:href="#spgR3" transform="translate(33000 11700)" />
+          <use xlink:href="#spgL4" transform="translate(35000 12300)" />
 
 
      </g>
